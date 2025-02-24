@@ -38,7 +38,7 @@ while True:
         print("Invalid choice. Please try again.")
     print()
 
-total = 0
+total = 0                                                               # calculate the total value of the inventory
 for key, value in inventory.items():
     total += value[0] * value[1]
 print(f"Thank you for using the Inventory Manager! The total value of your inventory is: ${total}.")
